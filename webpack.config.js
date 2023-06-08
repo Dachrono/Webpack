@@ -6,9 +6,9 @@ module.exports = {
         index: './src/index.js',
         print: './src/print.js',
       },
-  plugins: [
+      plugins: [
         new HtmlWebpackPlugin({
-          title: 'Output Management',
+         template: './src/index.html',
         }),
       ],
   output: {
